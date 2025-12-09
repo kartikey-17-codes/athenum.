@@ -13,31 +13,31 @@
 
 ## Tech Stack
 **Frontend:**
-* [e.g., Next.js 14 (App Router)]
-* [e.g., Tailwind CSS]
-* [e.g., Framer Motion]
+* Next.js 14 
+* Tailwind CSS
+* Framer Motion
 
 **Backend & Data:**
-* [e.g., Python (Data Pipeline)]
-* [e.g., Supabase (PostgreSQL & Auth)]
-* [e.g., OpenAI API (GPT-4o-mini)]
-* [e.g., ArXiv API]
-* 
+* Python 
+* Supabase 
+* OpenAI API 
+* ArXiv API
+  
 ## Architecture
 **The "Harvester" (Python Worker):**
-1.  [Step 1: Fetch from ArXiv...]
-2.  [Step 2: Process with OpenAI...]
-3.  [Step 3: Upsert to Database...]
+1.   Fetch from ArXiv...
+2.   Process with OpenAI...
+3.   Upsert to Database...
 
 **The "Platform" (Next.js):**
-1.  [Step 1: User authentication...]
-2.  [Step 2: Fetching data from Supabase...]
+1.  User authentication...
+2.  Fetching data from Supabase...
 
 ## Getting Started
 
 ### Prerequisites
 * Node.js & npm
-* Python 3.10+
+* Python 3.13
 * Supabase Account
 * OpenAI API Key
 
